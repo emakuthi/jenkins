@@ -12,10 +12,13 @@ node {
         sh "ls -l"	
        
     }
+stage('Apply changes to enviroment")q
+sh "ls-l"
+
+sh"php-s localhost:5000"
 
 
-
-}
+ }
 } catch(Error|Exception e) {
   //Finish failing the build after telling someone about it
   throw e
